@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Here</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .page-title {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 40px;
+      color: white;
+      text-shadow: 4px 1px 2px #888;
+      background-color: rgba(19, 30, 192, 0.518);
+      transition: transform 0.2s, box-shadow 0.3s;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="page-title">Click On Body Part To Know About Gym Exercises</h1>
+
+  <div class="container">
+    <!-- Front Body Image -->
+    <img src="body.jpg" usemap="#bodymap" alt="Front Body" width="400">
+
+    <!-- Back Body Image -->
+    <img src="back.jpg" usemap="#backmap" alt="Back Body" width="400">
+  </div>
+
+  <!-- Map for Front Body -->
+  <map name="bodymap">
+    <!-- Shoulder area (example) -->
+    <area shape="poly"
+      coords="177,167,177,183,174,189,165,190,155,186,146,185,154,179,164,176,177,167"
+      href="traps.html"  title="Traps" />
+
+      <area shape="poly"
+      coords="222,168,222,183,227,188,235,189,254,186,240,177,230,173,222,167"
+      href="traps.html"  title="Traps" />
+
+      <area shape="poly"
+      coords="164,190,152,198,144,207,134,220,125,229,116,234,107,235,100,237,105,220,109,207,117,197,123,193,135,189,146,186,155,187,164,190"
+      href="shoulder.html"  title="Shoulder" />
+    
+     <area shape="poly"
+      coords="234,191,250,187,262,188,278,193,286,201,291,209,298,227,299,232,300,239,287,234,278,231,266,222,258,212,251,202,244,196,234,191"
+      href="shoulder.html"  title="Shoulder" />
+
+      <area shape="poly"
+      coords="118,232,136,220,147,203,163,192,180,189,194,193,201,198,208,191,229,190,244,197,254,207,266,222,277,231,281,233,273,236,253,253,242,258,226,257,213,250,203,242,200,235,194,245,189,251,175,257,164,258,151,256,145,251,127,236,118,233"
+      href="chest.html"  title="chest" />
+
+      <area shape="poly"
+      coords="180,255,168,262,170,290,172,327,174,350,178,368,190,387,194,392,203,394,213,383,224,361,226,349,229,292,230,274,232,265,226,258,216,253,186,"
+      href="abs.html"  title="abs" />
+
+      <area shape="poly"
+      coords="128,238,132,246,132,255,130,265,136,284,148,308,148,328,144,356,155,356,163,349,167,340,167,302,170,291,169,276,128,238"
+      href="abs.html"  title="Lats" />
+
+      <area shape="poly"
+      coords="269,239,231,276,229,290,233,304,232,341,237,350,243,356,249,357,256,357,251,314,252,306,263,282,269,263,268,252,268,244,269,239"
+      href="abs.html"  title="Lats" />
+
+      <area shape="poly"
+      coords="118,234,109,235,98,240,91,248,81,270,78,291,82,299,89,302,101,299,130,263,132,255,132,243,126,236,118,234"
+      href="abs.html"  title="Bicep" />
+
+      <area shape="poly"
+      coords="280,234,291,235,302,241,314,259,319,274,320,293,314,300,304,301,296,297,269,263,267,255,268,245,269,239,281,324"
+      href="abs.html"  title="Bicep" />
+
+      <area shape="poly"
+      coords="321,277,320,293,314,301,305,301,298,298,307,314,317,332,326,343,336,352,325,358,351,369,361,369,367,361,343,303,339,299,320,276"
+      href="abs.html"  title="Forearm" />
+
+      <area shape="poly"
+      coords="79,275,60,298,56,305,32,362,38,368,46,369,53,360,62,353,73,343,83,330,91,316,98,306,104,296,95,301,84,299,80,290,79,276"
+      href="abs.html"  title="Forearm" />
+
+      <area shape="poly"
+      coords="144,357,138,395,130,434,127,466,130,501,137,530,133,560,124,588,126,625,130,675,128,691,110,714,102,725,115,736,118,734,126,737,139,725,142,716,151,711,152,687,153,661,162,621,167,616,165,566,178,524,180,510,196,455,198,429,187,416,177,383,163,366,144,358"
+      href="abs.html"  title="Legs" />
+
+      <area shape="poly"
+      coords="201,428,202,445,213,487,222,533,224,544,236,567,232,614,246,657,247,688,248,710,273,737,298,727,292,717,271,690,272,634,274,588,267,558,264,526,271,492,270,433,255,358,231,373,221,389,211,421,202,429"
+      href="abs.html"  title="Legs" />
+  </map>
+
+  <!-- Map for Back Body -->
+  <map name="backmap">
+    <!-- Example back area -->
+    <area shape="rect"
+      coords="0,0,600,1200"
+      href="back.html" alt="Back" title="Back Exercises" />
+    
+    <!-- Add more back areas here -->
+  </map>
+</body>
+</html>

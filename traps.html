@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stacked Centered Videos</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #6a6558;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* center videos horizontally */
+      padding: 40px 0;
+      gap: 40px; /* space between videos */
+    }
+    .ved {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 100px;
+    }
+    video {
+      width: 90%;        /* take most of the screen */
+      max-width: 1500px; /* big size but not too huge */
+      height: auto;      /* keep aspect ratio */
+      border-radius: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+
+<section class="ved">
+  <video autoplay muted loop playinline >
+    <source src="video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video autoplay muted loop playinline>
+    <source src="video2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video autoplay muted loop playinline>
+    <source src="video3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+</body>
+</html>
